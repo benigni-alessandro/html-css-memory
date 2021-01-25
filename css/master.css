@@ -1,0 +1,139 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: lightblue;
+}
+/* header */
+header{
+  height: 100px;
+}
+
+h1{
+  font-size: 70px;
+  text-align: center;
+  padding-top: 20px;
+  color: white;
+  font-family: 'Potta One', cursive;
+}
+/* main */
+main{
+  margin-right: 15%;
+  margin-left: 20%;
+  height: 780px;
+  padding-top: 50px;
+}
+.row{
+  width: 100%;
+  height: 220px;
+  position: relative;
+}
+.row-i{
+  width: 100%;
+  height: 220px;
+  position: relative;
+  margin-top: 30px;
+}
+/* card */
+.card{
+  background-image: url('../img/pattern.png');
+  background-size: 300px;
+  background-repeat: repeat-y;
+  width: 200px;
+  height: 220px;
+  border-radius: 15px;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+}
+.card2{
+  background-image: url('../img/pattern.png');
+  background-size: 300px;
+  background-repeat: repeat-y;
+  width: 200px;
+  height: 220px;
+  border-radius: 15px;
+  position: absolute;
+  top: 0;
+  left: 230px;
+}
+.card3{
+  background-image: url('../img/pattern.png');
+  background-size: 300px;
+  background-repeat: repeat-y;
+  width: 200px;
+  height: 220px;
+  border-radius: 15px;
+  position: absolute;
+  top: 0;
+  left: 460px;
+}
+.card4{
+  background-image: url('../img/pattern.png');
+  background-size: 300px;
+  background-repeat: repeat-y;
+  width: 200px;
+  height: 220px;
+  border-radius: 15px;
+  position: absolute;
+  top: 0;
+  left: 690px;
+}
+.card2-i{
+  background-image: url('../img/globo.png');
+  background-position: center;
+  background-size: 150px;
+  background-color: white;
+  background-repeat: no-repeat;
+  padding-top: 25px;
+  width: 200px;
+  height: 220px;
+  border-radius: 15px;
+  position: absolute;
+  top: 0;
+  left: 230px;
+  color: magenta;
+  font-family: 'Potta One';
+  font-size: 25px;
+  font-weight: bolder;
+}
+p{
+  position: absolute;
+  bottom: 8px;
+  left: 50px;
+}
+.card1-i{
+  background-image: url('../img/trattore.png');
+  background-position: center;
+  background-size: 150px;
+  background-color: white;
+  background-repeat: no-repeat;
+  padding-top: 25px;
+  width: 200px;
+  height: 220px;
+  border-radius: 15px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: orange;
+  font-family: 'Potta One';
+  font-size: 25px;
+  font-weight: bolder;
+}
+/* footer */
+.coda{
+  width: 100%;
+  height: 50px;
+  position: relative;
+}
+h4{
+  position: absolute;
+  bottom: 0;
+  left: 45%;
+  color: black;
+  font-size: 23px;
+  font-weight: bold;
+}
